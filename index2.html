@@ -32,7 +32,7 @@
     <a-scene
         vr-mode-ui='enabled: false;'
         renderer="logarithmicDepthBuffer: true;"
-        embedded arjs='trackingMethod: best; sourceType: webcam; debugUIEnabled: false;'>
+        embedded arjs='trackingMethod: best; sourceType: webcam; debugUIEnabled: true;'>
 
         <!-- use rawgithack to retrieve the correct url for nft marker (see 'pinball' below) -->
         <a-nft
@@ -40,7 +40,7 @@
             smooth='true' smoothCount='10' smoothTolerance='0.01' smoothThreshold='5'>
             <a-entity
                 gltf-model='https://doncode.github.io/scene.gltf'
-                scale="5 5 5"
+                scale="1 1 1"
                 position="0 150 -100"
                 >
             </a-entity>
